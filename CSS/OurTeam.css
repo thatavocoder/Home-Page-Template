@@ -1,0 +1,79 @@
+.ourteam{
+    background-image: linear-gradient(rgb(61, 0, 0),rgb(24, 0, 0));
+    border-radius: 0.5vw;
+    overflow: visible;
+}
+
+.ourteamhead{
+    text-align: center;
+    font-size: 3vw;
+    font-family: "Cinzel Decorative";
+    color: rgb(255, 255, 255);
+    padding: 1vw;
+}
+
+.ourteamcontent{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.teamcontainer{
+    height: 25vw;
+    width: 20vw;
+    color: rgb(61, 0, 0);
+    font-family: Advent Pro;
+    font-size: 1.3vw;
+    float: left;
+    margin: 1vw;
+    background-image: linear-gradient(white 60%, #dcaf968e);
+    border: 0.2vw solid black;
+    box-shadow: 0.3vw 0.3vw rgb(197, 197, 197);
+    border-radius: 0.5vw;
+}
+
+.smallteamcontainer{
+    height: 2.5vw; 
+    background-color: #DCAE96;
+    background-size: cover;
+    border-top-right-radius: 0.5vw;
+    border-top-left-radius: 0.5vw;
+}
+
+.teamname{
+    text-align: center;
+    padding: 0.3vw;
+    padding-top: 0.5vw;
+    font-size: 1.2vw;
+    font-family: Cinzel Decorative;
+    font-weight: bold;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-top: 3vw solid #DCAE96;
+}
+
+.triangle img{
+    height: 5vw;
+    width: 5vw;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    bottom: 2.5vw;
+    transform: translate(-50%);
+    border: 0.2vw solid #DCAE96;
+}
+
+.teaminfo{
+    margin-top: 1.5vw;
+}
+
+.teamdesc{
+    text-align: center;
+    padding: 1vw;
+}

@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 4.5vw;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.headercontainer {
+    background-image: linear-gradient(rgb(61, 0, 0),rgb(24, 0, 0));
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    top: 0;
+}
+
+.headercontainer img{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    margin-left: 1vw;
+}
+
+.headercontainer p{
+    font-size: 2.5vw;
+    color: white;
+    font-weight: bolder;
+    font-family: Cinzel Decorative;
+}
+
+.menu ul{
+    list-style-type: none;
+    background: none;
+    float: right;
+    padding-right: 1vw;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.35vw;
+    margin-right: 0.5vw;
+    padding: 0.5vw;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
+    font-family: Advent Pro;
+}
+
+.menu li a:hover{
+    background-image: linear-gradient(90deg, #aa8775, #DCAE96, #aa8775);
+    color: rgb(61, 0, 0);
+    border: none;
+    border-bottom: 0.2vw solid rgb(0, 0, 0);
+	border-radius: 0.5vw;
+	cursor: pointer;
+	-webkit-transition:  .5s all ease;
+    transition: .5s all ease;
+    font-family: Advent Pro;
+}
+
+.activebtn{
+    background-image: linear-gradient(90deg, #a78471, rgb(255, 231, 211), #a78471);
+    border-radius: 0.5vw;
+    border: 0.1vw solid rgb(255, 255, 255);
+}
+
+.activebtn p{
+    color: rgb(61, 0, 0);
+    font-size: inherit;
+    font-family: Advent Pro;
+}
+
+.menu .submenu li a:hover{
+    border-radius: 0.5vw;
+}
+
+.dropdowncontent{
+    display:none;
+	position: absolute;
+	top: 3.4vw;
+	-webkit-transition:  .5s all ease;
+    transition: .5s all ease;
+    z-index: 1000;
+}
+
+.dropdowncontent ul{
+    padding: 0;
+    margin: 0;
+    width: 9vw;
+}
+
+.dropdowncontent li{
+    float: none;
+    width: 100%;
+}
+
+.dropdowncontent li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.35vw;
+    margin: 0;
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+
+}
+
+.menu li:hover .dropdowncontent{
+    display: block;
+    background: rgb(61, 0, 0);
+    border-radius: 0.5vw;
+	-webkit-transition:  .5s all ease;
+	transition: .5s all ease;
+}
+
+.dropdowncontent li a:hover{
+	display: block;
+    border-bottom: 0.2vw solid rgb(0, 0, 0);
+    color: rgb(61, 0, 0);
+    border-radius: 0;
+}

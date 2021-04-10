@@ -1,0 +1,104 @@
+.packages{
+    border-radius: 0.5vw;
+}
+
+.packhead{
+    text-align: center;
+    font-size: 3vw;
+    font-family: "Cinzel Decorative";
+    color: rgb(61, 0, 0);
+    padding: 1vw;
+}
+
+.package-container{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: inline-block;
+    color: white;
+    font-family: Advent Pro;
+
+}
+
+.card-container{
+    margin: 1vw;
+    height: 35vw;
+    width: 25vw;
+    border: 0.2vw solid;
+    border-radius: 0.5vw;
+    background-image: linear-gradient(rgb(61, 0, 0),rgb(24, 0, 0));
+    box-shadow: 0.3vw 0.5vw rgb(197, 197, 197);
+    float: left;
+}
+
+.card1{
+    height: 10vw; 
+    background-image: url(../Pics/travelbgdom.jpg);
+    background-size: cover;
+    border-top-right-radius: 0.5vw;
+    border-top-left-radius: 0.5vw;
+    border-bottom: 0.2vw solid;
+    margin-bottom: 1.8vw;
+}
+
+.card2{
+    height: 10vw; 
+    background-image: url(../Pics/travelbgint.jpg);
+    background-size: cover;
+    border-top-right-radius: 0.5vw;
+    border-top-left-radius: 0.5vw;
+    border-bottom: 0.2vw solid;
+    margin-bottom: 1.8vw;
+}
+
+.packtype{
+    text-align: center;
+    font-size: 2.7vw;
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.price{
+    text-align: center;
+    font-size: 1.3vw;
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.packlist li{
+    margin-left: 7.5vw;
+    padding: 0.9vw;
+	padding-left: 2.5vw;
+	list-style: none;
+	background-image: url("../Pics/liststyle.png");
+	background-repeat: no-repeat;
+	background-position: center left;
+    background-size: 2vw;
+    font-size: 1.4vw;
+}
+
+.packbtn{
+    text-align: center;
+    width: 20vw;
+    height: 3vw;
+    font-size: 1.7vw;
+    font-family: Advent Pro;
+    color: rgb(255, 255, 255);
+    background-color: #ffd90080;
+    transition-duration: 0.4s;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    border: 0.1vw solid rgb(255, 255, 255);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 1vw;
+    outline: invert;
+}
+
+.packbtn:hover{
+    background-color: #dcaf96b2;
+    color: rgb(61, 0, 0);
+}
